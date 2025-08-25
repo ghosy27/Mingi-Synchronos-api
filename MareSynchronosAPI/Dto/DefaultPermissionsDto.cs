@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace MareSynchronos.API.Dto;
+namespace MingiSynchronos.API.Dto;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record DefaultPermissionsDto

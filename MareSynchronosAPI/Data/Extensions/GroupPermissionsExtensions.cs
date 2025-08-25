@@ -1,6 +1,6 @@
-﻿using MareSynchronos.API.Data.Enum;
+﻿using MingiSynchronos.API.Data.Enum;
 
-namespace MareSynchronos.API.Data.Extensions;
+namespace MingiSynchronos.API.Data.Extensions;
 
 public static class GroupPermissionsExtensions
 {

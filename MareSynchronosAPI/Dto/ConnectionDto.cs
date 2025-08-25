@@ -1,7 +1,7 @@
-﻿using MareSynchronos.API.Data;
+﻿using MingiSynchronos.API.Data;
 using MessagePack;
 
-namespace MareSynchronos.API.Dto;
+namespace MingiSynchronos.API.Dto;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record ConnectionDto(UserData User)

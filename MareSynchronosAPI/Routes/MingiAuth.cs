@@ -1,6 +1,6 @@
-﻿namespace MareSynchronos.API.Routes;
+﻿namespace MingiSynchronos.API.Routes;
 
-public class MareAuth
+public class MingiAuth
 {
     public const string OAuth = "/oauth";
     public const string Auth = "/auth";

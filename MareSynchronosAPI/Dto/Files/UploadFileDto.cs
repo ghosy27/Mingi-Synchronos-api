@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace MareSynchronos.API.Dto.Files;
+namespace MingiSynchronos.API.Dto.Files;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record UploadFileDto : ITransferFileDto

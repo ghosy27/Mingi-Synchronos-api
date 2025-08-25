@@ -1,7 +1,7 @@
-﻿using MareSynchronos.API.Data;
+﻿using MingiSynchronos.API.Data;
 using MessagePack;
 
-namespace MareSynchronos.API.Dto.Group;
+namespace MingiSynchronos.API.Dto.Group;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record GroupDto(GroupData Group)

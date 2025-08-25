@@ -1,6 +1,6 @@
 ﻿using MessagePack;
 
-namespace MareSynchronos.API.Data;
+namespace MingiSynchronos.API.Data;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record GroupData(string GID, string? Alias = null)

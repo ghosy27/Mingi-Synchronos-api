@@ -1,13 +1,13 @@
-﻿using MareSynchronos.API.Data;
-using MareSynchronos.API.Data.Enum;
-using MareSynchronos.API.Dto;
-using MareSynchronos.API.Dto.CharaData;
-using MareSynchronos.API.Dto.Group;
-using MareSynchronos.API.Dto.User;
+﻿using MingiSynchronos.API.Data;
+using MingiSynchronos.API.Data.Enum;
+using MingiSynchronos.API.Dto;
+using MingiSynchronos.API.Dto.CharaData;
+using MingiSynchronos.API.Dto.Group;
+using MingiSynchronos.API.Dto.User;
 
-namespace MareSynchronos.API.SignalR;
+namespace MingiSynchronos.API.SignalR;
 
-public interface IMareHubClient : IMareHub
+public interface IMingiHubClient : IMingiHub
 {
     void OnDownloadReady(Action<Guid> act);
 

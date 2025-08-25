@@ -1,6 +1,6 @@
-﻿namespace MareSynchronos.API.Data;
+﻿namespace MingiSynchronos.API.Data;
 
 public class Constants
 {
-    public const string IndividualKeyword = "//MARE//DIRECT";
+    public const string IndividualKeyword = "//Mingi//DIRECT";
 }

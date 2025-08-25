@@ -1,6 +1,6 @@
-﻿using MareSynchronos.API.Dto.Group;
+﻿using MingiSynchronos.API.Dto.Group;
 
-namespace MareSynchronos.API.Data.Comparer;
+namespace MingiSynchronos.API.Data.Comparer;
 
 public class GroupPairDtoComparer : IEqualityComparer<GroupPairDto>
 {

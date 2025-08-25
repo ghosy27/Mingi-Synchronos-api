@@ -1,7 +1,7 @@
-﻿using MareSynchronos.API.Data;
+﻿using MingiSynchronos.API.Data;
 using MessagePack;
 
-namespace MareSynchronos.API.Dto.User;
+namespace MingiSynchronos.API.Dto.User;
 
 [MessagePackObject(keyAsPropertyName: true)]
 public record OnlineUserCharaDataDto(UserData User, CharacterData CharaData) : UserDto(User);

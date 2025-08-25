@@ -1,6 +1,6 @@
-﻿using MareSynchronos.API.Data;
+﻿using MingiSynchronos.API.Data;
 
-namespace MareSynchronos.API.Dto.CharaData;
+namespace MingiSynchronos.API.Dto.CharaData;
 
 public record CharaDataDto(string Id, UserData Uploader)
 {

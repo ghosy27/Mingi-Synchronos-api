@@ -1,6 +1,6 @@
-﻿namespace MareSynchronos.API.Routes;
+﻿namespace MingiSynchronos.API.Routes;
 
-public class MareFiles
+public class MingiFiles
 {
     public const string Cache = "/cache";
     public const string Cache_Get = "get";
