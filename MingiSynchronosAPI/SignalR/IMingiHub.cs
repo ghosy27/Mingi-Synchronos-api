@@ -10,7 +10,7 @@ namespace MingiSynchronos.API.SignalR;
 public interface IMingiHub
 {
     const int ApiVersion = 33;
-    const string Path = "/Mingi";
+    const string Path = "/mingi";
 
     Task<bool> CheckClientHealth();
 
